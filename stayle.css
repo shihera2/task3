@@ -1,0 +1,199 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../task3/images/صور-فضاء-رائعة-خلفيات-جوال-وكمبيوتر-من.jpeg);
+    background-size: cover;
+    
+}
+
+
+
+
+
+
+.div1{
+    width: 150px;
+    height: 150px;
+    background-image: url(../task3/images/Untitled.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    animation-name: change;
+    animation-duration: 3s;
+    position: absolute;
+    animation-fill-mode: forwards;
+
+}
+@keyframes   change{
+     0%{
+        left: 0;
+        /* background-image: url(../task3/images/Untitled.jpg); */
+     }
+     
+     50%{
+        /* left: 1100px; */
+     }
+     
+     100%{
+      /* background-color: rgb(62, 207, 18); */
+      left:1200px;
+
+     }
+    }
+
+
+ .div2{
+     width: 150px;
+    height: 150px;
+     background-image: url(../task3/images/image.jpg);
+     background-size: cover;
+     border-radius: 50%;
+     animation-name: change;
+     animation-duration: 3s;
+     position: absolute;
+     top: 200px;
+     animation-delay: 3s;
+     animation-direction: reverse;
+     animation-fill-mode: forwards;
+    
+    }
+    
+@keyframes   change{
+    0%{
+       left: 0;
+       
+    }
+         
+     50%{
+            /* left: 1100px; */
+    }
+         
+     100%{
+         
+         left:1200px;
+    
+    }
+ }
+
+
+ .div3{
+     width: 150px;
+     height: 150px;
+     background-image: url(../task3/images/26a66e34-163a-4055-8595-ac398e08f60b.webp);
+     background-size: cover;
+     border-radius: 50%;
+     animation-name: change;
+     animation-duration: 3s;
+     top: 400px;
+     animation-delay: 6s;
+     position: absolute;
+     
+     animation-fill-mode: forwards;
+        
+}
+ @keyframes   change{
+    0%{
+       left: 0;
+    
+   }
+             
+    50%{
+         /* left: 1100px; */
+    }
+             
+     100%{
+         left:1200px;
+        
+         }
+}
+
+.div4{
+    width: 150px;
+    height: 150px;
+    background-image: url(../task3/images/388739imgid402725.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    animation-name: change;
+    animation-duration: 3s;
+    position: absolute;
+    top: 600px;
+    animation-delay: 9s;
+    animation-direction: reverse;
+    animation-fill-mode: forwards;
+
+}
+@keyframes   change{
+     0%{
+        left: 0;
+     }
+     
+     50%{
+        /* left: 1100px; */
+     }
+     
+     100%{
+      left:1200px;
+
+     }
+    } 
+    
+    .div5{
+        width: 150px;
+        height: 150px;
+        background-image: url(../task3/images/thumb2-saturn-3d-art-red-planet-digital-art-galaxy.jpg);
+        background-size: cover;
+        border-radius: 50%;
+        animation-name: change;
+        animation-duration: 3s;
+        top: 800px;
+        animation-delay: 12s;
+        position: absolute;
+        animation-fill-mode: forwards;
+           
+   }
+    @keyframes   change{
+       0%{
+          left: 0;
+      }
+                
+       50%{
+            /* left: 1100px; */
+       }
+                
+        100%{
+            left:1200px;
+           
+            }
+   }
+
+   .div6{
+    width: 150px;
+    height: 150px;
+    background-image: url(../task3/images/كوكب-أورانوس.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    animation-name: change;
+    animation-duration: 3s;
+    position: absolute;
+    top: 1000px;
+    animation-delay: 15s;
+    animation-direction: reverse;
+    animation-fill-mode: forwards;
+
+}
+@keyframes   change{
+     0%{
+        left: 0;
+      background-color: blue;
+     }
+     
+     50%{
+        /* left: 1100px; */
+     }
+     
+     100%{
+      background-color: rgb(62, 207, 18);
+      left:1200px;
+
+     }
+    }   
+      
